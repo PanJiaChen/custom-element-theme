@@ -11,12 +11,12 @@
 
   /* Colors
   -------------------------- */
-  --color-primary: #20a0ff;
+  --color-primary: #073069;
 
-  --color-success: #13ce66;
-  --color-warning: #f7ba2a;
-  --color-danger: #ff4949;
-  --color-info: #50bfff;
+  --color-success: #00643b;
+  --color-warning: #f56a00;
+  --color-danger: #ffbf00;
+  --color-info: #00a2ae;
 
   --color-secondary: color(var(--color-primary) s(99%) l(*0.9));
   --color-white: #fff;
