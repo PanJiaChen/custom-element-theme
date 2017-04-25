@@ -22,7 +22,6 @@
       "import/no-dynamic-require": 0
     }
   },
-
   "keywords": [
     "element-ui",
     "vue",
@@ -42,6 +41,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
     "gulp-cssmin": "^0.1.7",
     "gulp-nop": "0.0.3",
     "gulp-postcss": "^6.2.0",
