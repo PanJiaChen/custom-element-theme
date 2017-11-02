@@ -1,6 +1,6 @@
 {
-  "name": "element-theme",
-  "version": "0.7.1",
+  "name": "custome-element-theme",
+  "version": "2.0.0",
   "description": "Theme generator cli tool for Element",
   "bin": {
     "element-theme": "./bin/element-theme",
@@ -40,19 +40,19 @@
   },
   "dependencies": {
     "commander": "^2.9.0",
+    "element-theme": "^2.0.0",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
     "gulp-clean-css": "^3.0.4",
+    "gulp-css-wrap": "^0.1.2",
     "gulp-cssmin": "^0.1.7",
     "gulp-nop": "0.0.3",
-    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^3.1.0",
     "ora": "^0.3.0",
-    "postcss-salad": "^1.0.6",
-    "run-sequence": "^1.2.2",
-    "through2": "^2.0.3"
+    "run-sequence": "^1.2.2"
   },
   "devDependencies": {
-    "element-theme-default": "git+https://github.com/ElementUI/theme-default.git",
-    "gulp-css-wrap": "^0.1.2",
+    "element-theme-chalk": "^2.0.2",
     "xo": "^0.17.0"
   }
 }

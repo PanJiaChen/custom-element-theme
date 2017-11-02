@@ -8,3 +8,9 @@ gulp.task('css-wrap', function() {
     .pipe(cleanCSS())
     .pipe(gulp.dest('dist'));
 });
+
+gulp.task('move-font', function() {
+  return gulp.src(['./theme/fonts/**']).pipe(gulp.dest('dist/fonts'));
+});
+
+gulp.task('default',['css-wrap','move-font']);
