@@ -51,7 +51,7 @@
     "run-sequence": "^1.2.2"
   },
   "devDependencies": {
-    "element-theme-chalk": "2.4.10",
+    "element-theme-chalk": "2.4.11",
     "xo": "^0.17.0"
   }
 }
