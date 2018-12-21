@@ -1,6 +1,6 @@
 {
-  "name": "custome-element-theme",
-  "version": "2.0.0",
+  "name": "custom-element-theme",
+  "version": "2.0.1",
   "description": "Theme generator cli tool for Element",
   "bin": {
     "element-theme": "./bin/element-theme",
@@ -40,7 +40,6 @@
   },
   "dependencies": {
     "commander": "^2.9.0",
-    "element-theme": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-clean-css": "^3.0.4",
@@ -52,7 +51,7 @@
     "run-sequence": "^1.2.2"
   },
   "devDependencies": {
-    "element-theme-chalk": "^2.0.2",
+    "element-theme-chalk": "2.4.10",
     "xo": "^0.17.0"
   }
 }

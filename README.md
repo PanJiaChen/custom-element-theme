@@ -17,7 +17,7 @@ npm install
 ## CLI
 ```shell
 # init variables file
-et --init [file path]
+et -i
 
 # build theme
 et
@@ -27,6 +27,12 @@ gulp
 
 ```
 
+## Update
+- remove `element-variables.scss`
+- update `element-theme-chalk` version in package.json
+- et -i
+- et
+- gulp
 
 ## License
 MIT
